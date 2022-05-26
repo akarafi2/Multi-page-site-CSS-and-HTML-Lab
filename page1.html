@@ -5,92 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
     <title>Page1</title>
-    <style>
-        body,
-        html {
-            font-size: 25px;
-            font-family: 'Times New Roman', Times, serif;
-
-        }
-
-        header {
-            display: flex;
-            background-color: darkolivegreen;
-            align-items: center;
-            padding: 30px 70px;
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-        footer {
-    display: flex;
-    background-color: darkolivegreen;
-    align-items: center;
-    width: 100%;
-    height: 5%;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-
-}
-        .navbar {
-            list-style: none;
-
-        }
-
-        .navbar li {
-            display: inline-block;
-            padding: 0 15px;
-            text-transform: uppercase;
-        }
-
-        .navbar li a {
-            transition: .4s;
-            color: antiquewhite;
-            border-radius: 15px;
-            padding: 15px;
-        }
-
-        .navbar li a:hover {
-            color: coral;
-            background-color: cornsilk;
-
-        }
-
-        h1 {
-            text-align: center;
-            margin-top: 200px;
-        }
-    </style>
 </head>
-
 <body>
-    <header>
-        <img class="logo" src="images/Alamo.png" alt="Logo"></div>
-        <nav>
-            <ul class="navbar">
-                <li><a class="nav_element" href="index.html">Home</a></li>
-                <li><a class="nav_element" href="./page1.html">Page1</a></li>
-                <li><a class="nav_element" href="./page2.html">Page2</a></li>
-                <li><a class="nav_element" href="./page3.html">Page3</a></li>
-                <li><a class="nav_element" href="./page4.html">Page4</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="wrapper site-header_wrapper">
+            <a href="index.html" class="logo"><img src="images/Alamo.png" alt="Logo" width="150"></a>
+            <nav class="nav">
+                <ul class="navbar">
+                    <li><a class="nav_element" href="index.html">Home</a></li>
+                    <li><a class="nav_element" href="./page1.html">Page1 (Current)</a></li>
+                    <li><a class="nav_element" href="./page2.html">Page2</a></li>
+                    <li><a class="nav_element" href="./page3.html">Page3</a></li>
+                    <li><a class="nav_element" href="./page4.html">Page4</a></li>
+                </ul>
+            </nav>
+            <div class="icon"><a href="#"><img class="cart" src="Images/shopping-cart-icon.svg" alt="" width="35"></a>
+            </div>
+        </div>
     </header>
-    <h1>Page 1</h1>
-
+    <div class="page_title"><h1>Page 1</h1></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 </body>
 <footer>
-    <nav>
+    <div class="wrapper site-footer_wrapper">
+      <nav class="nav">
         <ul class="navbar">
             <li><a class="nav_element" href="index.html">Home</a></li>
-            <li><a class="nav_element" href="./page1.html">Page1</a></li>
+            <li><a class="nav_element" href="./page1.html">Page1 (Current)</a></li>
             <li><a class="nav_element" href="./page2.html">Page2</a></li>
             <li><a class="nav_element" href="./page3.html">Page3</a></li>
             <li><a class="nav_element" href="./page4.html">Page4</a></li>
         </ul>
-    </nav>
+      </nav>
+    </div>
 </footer>
-
 </html>
