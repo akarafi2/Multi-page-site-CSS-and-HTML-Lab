@@ -6,47 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Sansita+Swashed&display=swap"
+        rel="stylesheet">
     <title>My 5 Favorite Restaurants</title>
     <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+    
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="images/Alamo.png" alt="Logo"></div>
-        <nav>
-            <ul class="navbar">
-                <li><a class="nav_element" href="index.html">Home</a></li>
-                <li><a class="nav_element" href="./page1.html">Page1</a></li>
-                <li><a class="nav_element" href="./page2.html">Page2</a></li>
-                <li><a class="nav_element" href="./page3.html">Page3</a></li>
-                <li><a class="nav_element" href="./page4.html">Page4</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="wrapper site-header_wrapper">
+            <a href="index.html" class="logo"><img src="images/Alamo.png" alt="Logo" width="150"></a>
+            <nav class="nav">
+                <ul class="navbar">
+                    <li><a class="nav_element" href="index.html">Home</a></li>
+                    <li><a class="nav_element" href="page1.html">Page1</a></li>
+                    <li><a class="nav_element" href="page2.html">Page2</a></li>
+                    <li><a class="nav_element" href="page3.html">Page3</a></li>
+                    <li><a class="nav_element" href="page4.html">Page4</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input class="search-text" type="text" placeholder="Type to search..">
+            </div>
+
+            <div class="icon"><a href="#"><img class="search-btn" src="Images/Search-icon.png" alt="" width="25"></a>
+            </div>
+
+            <div class="icon"><a href="#"><img class="cart" src="Images/shopping-cart-icon.svg" alt="" width="35"></a>
+            </div>
+
+        </div>
     </header>
 
-    <div class="container">
-        <div class="search-box">
-            <input class="search-text" type="text" placeholder="Type to search..">
-            <span>&nbsp;</span>
-        </div>
-        <div class="icon"><a href="#"><img class="search-btn" src="Images/Search-icon.png" alt="" width="25px"></a>
-            <span>&nbsp;</span>
-        </div>
-        <div class="icon"><a href="#"><img src="Images/shopping-cart-icon.svg" alt="" width="25px"></a>
-        </div>
-    </div>
     <br><br>
     <div id="title">
-        <h1>My Five Favorite Restaurants in San Antonio</h1>
+        <h1>My Five Favorites Restaurants in San Antonio</h1>
     </div>
+    <br><br>
 
-
-
-    <p>The following restaurants are my favorite after all things considered, quality of food, price, and customer
+    <p>The following restaurants are my favorites after all things considered, quality of food, price, and customer
         service among other criterias.</p>
-
-
 
     <h2>Here is the list starting with the best:</h2>
 
@@ -116,10 +116,12 @@
 
 
     </form>
-    <br><br><br><br>
+    
+    
 </body>
 <footer>
-    <nav>
+    <div class="wrapper site-footer_wrapper">
+      <nav class="nav">
         <ul class="navbar">
             <li><a class="nav_element" href="index.html">Home</a></li>
             <li><a class="nav_element" href="./page1.html">Page1</a></li>
@@ -127,7 +129,8 @@
             <li><a class="nav_element" href="./page3.html">Page3</a></li>
             <li><a class="nav_element" href="./page4.html">Page4</a></li>
         </ul>
-    </nav>
+      </nav>
+    </div>
 </footer>
 
 </html>
